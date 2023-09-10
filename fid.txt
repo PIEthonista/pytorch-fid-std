@@ -1,0 +1,15 @@
+FID calculation:
+
+In your project folder, for example mine: /.../palette_scene2scene, create a folder called "pytorch_fid", 
+then do: git clone https://github.com/mseitzer/pytorch-fid.git /.../palette_scene2scene/pytorch_fid
+
+Go to /.../palette_scene2scene/pytorch_fid/src/pytorch_fid/fid_score.py comment out line 51: 
+"from pytorch_fid.inception import InceptionV3", change to "from .inception import InceptionV3"
+
+then in terminal, at your project dir: /.../palette_scene2scene, conda activate your env, then do: 
+pip install -e /.../palette_scene2scene/pytorch_fid
+
+to calculate fid score between ground truth and generated image, use the below script. 
+This script needs GPU so use sbatch
+
+
