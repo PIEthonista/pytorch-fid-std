@@ -4,8 +4,11 @@ Remote: <a href='https://github.com/PIEthonista/pytorch-fid-std'>https://github.
 Forked from: <a href='https://github.com/mseitzer/pytorch-fid'>https://github.com/mseitzer/pytorch-fid</a>
 Additional Inception Score from: <a href='https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models'>https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models</a>
 
+See <code>setup.py</code> for dependencies.
 
-<code>See eval_std_fid.py for usage.</code>
+See <code>eval_std_fid.py</code> & <code>fid.txt</code> for usage.
+
+To add all these items to <code>your_project_dir/pytorch_fid</code>, copy everything except for hidden files: <code>.git .gitignore</code>
 
 </br>
 
