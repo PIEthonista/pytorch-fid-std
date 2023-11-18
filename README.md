@@ -1,5 +1,15 @@
 [![PyPI](https://img.shields.io/pypi/v/pytorch-fid.svg)](https://pypi.org/project/pytorch-fid/)
 
+Remote: <a href='https://github.com/PIEthonista/pytorch-fid-std'>https://github.com/PIEthonista/pytorch-fid-std</a>
+Forked from: <a href='https://github.com/mseitzer/pytorch-fid'>https://github.com/mseitzer/pytorch-fid</a>
+Additional Inception Score from: <a href='https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models'>https://github.com/Janspiry/Palette-Image-to-Image-Diffusion-Models</a>
+
+
+<code>See eval_std_fid.py for usage.</code>
+
+</br>
+
+
 # FID score for PyTorch
 
 This is a port of the official implementation of [Fréchet Inception Distance](https://arxiv.org/abs/1706.08500) to PyTorch.
